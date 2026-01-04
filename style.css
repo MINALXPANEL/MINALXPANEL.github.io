@@ -1,0 +1,82 @@
+/* ===== BASIC RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #111827;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    padding: 70px 40px;
+    min-height: 100vh;
+}
+
+section h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+section p {
+    max-width: 750px;
+    line-height: 1.6;
+}
+
+/* ===== VIDEO ===== */
+.video-box {
+    margin-top: 30px;
+}
+
+video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
